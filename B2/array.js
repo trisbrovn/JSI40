@@ -34,7 +34,7 @@ const has_a = flat_arr.some((item) => String(item).includes("a"));
 console.log("Some: " + has_a);
 
 // --------------------------------------------------------------
-// every: trả về boolean, tất cả phần tử đều khớp điều kiện
+// every: trả về boolean, thỏa điều kiện tất cả phần tử phải khớp
 const all_number = flat_arr.every((item) => typeof item === "number");
 console.log("Every: " + all_number);
 
